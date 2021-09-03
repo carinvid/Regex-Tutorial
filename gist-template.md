@@ -4,49 +4,51 @@
 
 :om:## Summary
 
-This is an example of a RegEx Expression meant to match a Hex Color Value string:
+This is an example of a RegEx Expression meant to match only the first phone number in a text:
 
+\(?\d{3}[-.)]\d{3}[-.]\d{4}$
 
+Text is : :heartbeat:If you love me call at 801.235.2566 , if you are still confused text me (801)555-6666.:heartbeat:
 
 You will find details about the how this Regular Expression works and each part of it.
 
 :om:## Table of Contents
-
-- [Anchors](#anchors)
+- [Anchors](#Anchors)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
 :symbols:### Anchors
 
+From the beginning, the first and last symbols are ^ && $. These specifically are known as Line/String Anchors. They are very special, as they are not meant to match characters, but to match the position of them in a string or \n.
+
+In my example $ means the end of the expression
+
 :symbols:### Quantifiers
+
+Quantifiers are used to match the scope of a term which precedes it. You must place these quantifiers at the end of your desired scope, as they are looking for anything to match before its placement.
+
+Like for my example d{3} means that have to have 3 characteres.
+And also ? matches between 0 and 1 characters of the preceeding expression boundaries
 
 :symbols:### OR Operator
 
 :symbols:### Character Classes
 
-:symbols:### Flags
+In the expression, we find character classes are popular! Character classes zone in on any specific character set, combination, any digit, etc.
+
+in this case [-.] between the square parenthesis has to macth what is in the phone number - or .
 
 :symbols:### Grouping and Capturing
 
-:symbols:### Bracket Expressions
+In the expression, Grouping and Capturing are found using () as a means to specify/consolidate which information we want to capture. Any subpattern inside a pair of these parentheses will be captured within a 'group.'
 
-:symbols:### Greedy and Lazy Match
+In my example the group is (?\d{3}[-.)
 
-:symbols:### Boundaries
-
-:symbols:### Back-references
-
-:symbols:### Look-ahead and Look-behind
 
 ## Author
 
