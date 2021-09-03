@@ -15,7 +15,6 @@ You will find details about the how this Regular Expression works and each part 
 :om:## Table of Contents
 - [Anchors](#Anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 
@@ -34,8 +33,6 @@ Quantifiers are used to match the scope of a term which precedes it. You must pl
 
 Like for my example d{3} means that have to have 3 characteres.
 And also ? matches between 0 and 1 characters of the preceeding expression boundaries
-
-:symbols:### OR Operator
 
 :symbols:### Character Classes
 
