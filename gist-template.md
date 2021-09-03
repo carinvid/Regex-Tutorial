@@ -1,12 +1,16 @@
-# Title (replace with your title)
+:trident::trident::trident:#REGULAR EXPRESSION ( Cool RegeX ) :biohazard: :biohazard:
 
-Introductory paragraph (replace this with your text)
+:om:#DESCRIPTION 
 
-## Summary
+:om:## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This is an example of a RegEx Expression meant to match a Hex Color Value string:
 
-## Table of Contents
+
+
+You will find details about the how this Regular Expression works and each part of it.
+
+:om:## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
@@ -22,28 +26,28 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
-### Anchors
+:symbols:### Anchors
 
-### Quantifiers
+:symbols:### Quantifiers
 
-### OR Operator
+:symbols:### OR Operator
 
-### Character Classes
+:symbols:### Character Classes
 
-### Flags
+:symbols:### Flags
 
-### Grouping and Capturing
+:symbols:### Grouping and Capturing
 
-### Bracket Expressions
+:symbols:### Bracket Expressions
 
-### Greedy and Lazy Match
+:symbols:### Greedy and Lazy Match
 
-### Boundaries
+:symbols:### Boundaries
 
-### Back-references
+:symbols:### Back-references
 
-### Look-ahead and Look-behind
+:symbols:### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+:nerd_face: Hello!!! :wave::wave: My name is Carolina Reedy and I am full Stack Developer, if you have any question please visit : https://github.com/carinvid
